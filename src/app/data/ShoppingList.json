@@ -1,0 +1,14 @@
+
+ [
+   {
+    "name" : "Rice",
+    "Price" : 14,
+    "storeType" : "Tarkari"
+  },
+  {
+    "name" : "Butter",
+    "Price" : 10,
+    "StoreType" : "Costoco"
+  }
+]
+
