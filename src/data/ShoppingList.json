@@ -1,0 +1,24 @@
+
+ [
+   {
+    "Name" : "Rice",
+    "Price" : 14,
+    "StoreType" : "Tarkari"
+  },
+  {
+    "Name" : "Butter",
+    "Price" : 10,
+    "StoreType" : "Costco"
+  },
+  {
+    "Name" : "Cucumbers",
+    "Price" : 1,
+    "StoreType": "Tomthumb"
+  },
+  {
+    "Name" : "Milk",
+    "Price" : 3.99,
+    "StoreType": "Braums"
+  }
+]
+

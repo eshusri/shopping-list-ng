@@ -1,0 +1,57 @@
+[
+  {
+    "Name" : "Ganapathi Mandalemula",
+    "Month" : "January",
+    "Amount" : 100
+  },
+  {
+    "Name" : "Visalakshi Mandalemula",
+    "Month" : "February",
+    "Amount" : 100
+  },
+  {
+    "Name" : "Yajnanadham Mylavarapu",
+    "Month" : "March",
+    "Amount" : 100
+  },
+  {
+    "Name" : "Ramalakshmi Mylavarapu",
+    "Month" : "April",
+    "Amount" : 100
+  },
+  {
+    "Name" : "Srinivas Mandalemula",
+    "Month" : "June",
+    "Amount" : 100
+  },
+  {
+    "Name" : "Eswari Mandalemula",
+    "Month" : "July",
+    "Amount" : 100
+  },
+  {
+    "Name" : "Mayukh Mandalemula",
+    "Month" : "August",
+    "Amount" : 100
+  },
+  {
+    "Name" : "Srinivas Mandalemula",
+    "Month" : "September",
+    "Amount" : 100
+  },
+  {
+    "Name" : "Moukthika Mandalemula",
+    "Month" : "October",
+    "Amount" : 100
+  },
+  {
+    "Name" : "Family",
+    "Month" : "November",
+    "Amount" : 100
+  },
+  {
+    "Name" : "Family",
+    "Month" : "December",
+    "Amount" : 100
+  }
+]

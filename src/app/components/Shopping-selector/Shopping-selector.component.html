@@ -1,5 +1,38 @@
-<div class="flex-container">
-  <button type="button">Tarkari</button>
-  <button type="button">Costco</button>
-  <button type="button">Brams</button>
-</div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#" routerLink="/">
+        <img alt="Brand" src="assets/home_logo.png">
+      </a>
+    </div>
+  </div>
+  <!-- <ul class="navbar-nav nav">
+      <li class="nav-item">
+        <a class="nav-link" [routerLinkActiveOptions]="{exact:true}" routerLinkActive="active" routerLink="Tarkari-list">Tarkari</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active" routerLink="Show-shopping-list/:store">Costco</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active" routerLink="Update-Shopping-List">Update Shopping List</a>
+      </li>
+    </ul> -->
+    <ul class="navbar-nav nav">
+      <li class="nav-item"><a class="nav-link" routerLink="todo-list">To Do for today</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Reminders</a></li>
+      <li class="nav-item"><a class="nav-link" routerLink="family-donation">Donation List</a></li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Shopping
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <p *ngFor="let store of storeList">
+            <a class="dropdown-item" routerLink="Show-shopping-list/{{store}}">{{store}}</a>
+          </p>
+          <p><a class="dropdown-item" routerLink="Update-Shopping-List">Update Items</a></p>
+        </div>
+      </li>
+    </ul>
+
+
+</nav>

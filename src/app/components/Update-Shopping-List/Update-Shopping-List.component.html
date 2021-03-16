@@ -1,3 +1,33 @@
-<p>
-  Update-Shopping-List works!
-</p>
+<div class="container-fluid col-6 p-3 mb-2 bg-light">
+    <h1>Update Shopping List</h1>{{updateListForm.value | json}}
+    <form [formGroup]="updateListForm">
+      <div class="form-group">
+        <label>Item name</label>
+        <input formControlName="itemName" class="form-control" type="text" />
+      </div>
+      <div class="form-group">
+        <label>Item Price</label>
+        <input formControlName="itemPrice" class="form-control" type="text" />
+      </div>
+      <div class="form-group">
+        <label>Store type</label>
+        <select formControlName="storeType" class="form-control">
+          <option  *ngFor="let store of storeList">{{store}}</option>
+        </select>
+      </div>
+      <div class="form-group" formGroupName="storeAddress">
+        <label>City</label>
+        <input class="form-control" formControlName="city" />
+        <label>State</label>
+        <input class="form-control" formControlName="state" />
+        <label>Zipcode</label>
+        <input class="form-control" formControlName="zipcode" />
+      </div>
+      <div class="form-group">
+        <button class="btn btn-primary" type="submit">Add Item</button>
+        <button type="reset" class="btn btn-secondary ml-2">Cancel</button>
+      </div>
+
+    </form>
+</div>
+

@@ -1,0 +1,8 @@
+<div class="jumbotron mt4">
+  <h1>Shopping List</h1>
+    <div class="item-row" *ngFor="let item of cshoppingArray">
+      <p class="item-name">Item - {{item.Name}}</p>
+      <p class="item-price">Price - {{item.Price | currency}}</p>
+    </div>
+  <p><button type="submit" class="btn btn-primary btn-large">Send mail</button></p>
+  </div>

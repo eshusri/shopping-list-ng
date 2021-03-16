@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ShoppingSelectorComponent implements OnInit {
 
+  public storeList: Array<string> = ['Costco', 'Tarkari', 'Braums', 'Tomthumb']
   constructor() { }
 
   ngOnInit() {
