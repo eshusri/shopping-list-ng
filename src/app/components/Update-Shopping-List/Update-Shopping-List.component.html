@@ -1,5 +1,5 @@
 <div class="container-fluid col-6 p-3 mb-2 bg-light">
-    <h1>Update Shopping List</h1>{{updateListForm.value | json}}
+    <h1>Update Shopping List</h1><span>{{updateListForm.value | json}}</span>
     <form [formGroup]="updateListForm">
       <div class="form-group">
         <label>Item name</label>
@@ -23,6 +23,7 @@
         <label>Zipcode</label>
         <input class="form-control" formControlName="zipcode" />
       </div>
+
       <div class="form-group">
         <button class="btn btn-primary" type="submit">Add Item</button>
         <button type="reset" class="btn btn-secondary ml-2">Cancel</button>
